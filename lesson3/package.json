@@ -1,0 +1,19 @@
+{
+  "name": "lesson3",
+  "version": "1.0.0",
+  "description": "使用nodejs来实现网络爬虫，用于爬取信息，主要目的是学习node的异步特性，顺便学习superagent的链式调用风格",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "ruochen.xie",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.2",
+    "superagent": "^3.8.2"
+  }
+}
