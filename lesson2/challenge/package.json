@@ -1,0 +1,19 @@
+{
+  "name": "fuckchallenge",
+  "version": "1.0.0",
+  "description": "学习使用外部模块的挑战作业",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github ruochen.xie"
+  },
+  "author": "ruochen.xie",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2",
+    "utility": "^1.13.1"
+  }
+}
