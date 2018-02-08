@@ -63,27 +63,13 @@ superagent.get(cnodeUrl)
           href: topicUrl,
           comment1: $('.reply_content').eq(0).text().trim(),
           author1: $('.reply_author').eq(0).text().trim(),
-          authorUrl: authorUrl,
-          rank: returnRank(authorUrl)
+          authorUrl: authorUrl
         });
       });
 
       console.log('final:');
       console.log(topics);
     });
-
-    // 获取用户积分
-    function returnRank(authorUrl){
-      superagent.get(authorUrl)
-        .end(function (err, sres) {
-          if (err) {
-            return console.error(err);
-          }
-          var k = cheerio.load(sres.text);
-          console.log(k('.user_profile .big').eq(0).text().trim())
-          return k('.user_profile .big').eq(0).text().trim();
-        });
-    };
 
     topicUrls.forEach(function (topicUrl) {
       superagent.get(topicUrl)
