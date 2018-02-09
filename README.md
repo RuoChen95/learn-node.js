@@ -1,4 +1,4 @@
-# learn-node.js-v0.12.18
+# learn-node.js
 
 
 这是我学习[node-lessons](https://github.com/alsotang/node-lessons)的作业，包括其普通代码的重复以及challenge。
