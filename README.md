@@ -1,7 +1,14 @@
 # learn-node.js
 
+### 学习资料：
 
-这是我学习[node-lessons](https://github.com/alsotang/node-lessons)的作业，包括其普通代码的重复以及challenge。
+##### node-china-lessons:
 
+https://github.com/alsotang/node-lessons
 
-所使用的为最新的node，版本号为v8.9.4。
+##### freecodecamp：
+
+> LESSON 4
+
+- https://github.com/maxogden/art-of-node#callbacks
+- https://nodejs.org/api/fs.html#fs_fs_readfile_path_options_callback
